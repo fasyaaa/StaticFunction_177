@@ -18,4 +18,22 @@ public :
 	mahasiswa(string pnama) : nama(pnama) { setID(); }
 };
 
-int mahasiswa
+int mahasiswa::nim = 0;
+
+void mahasiswa::setID() {
+	id = ++nim;
+}
+
+void mahasiswa::printAll() {
+	cout << "ID = " << id << endl;
+	cout << "Nama = " << nama << endl;
+	cout << endl;
+}
+
+int main() {
+	mahasiswa mhs1("Sri Dadi");
+	mahasiswa mhs2("Budi Jatmiko");
+	mahasiswa::setNIM(9);								//Mengakses nim melalui static member function "setNIM"
+	mahasiswa mhs3("Andi Janu");
+	mahasiswa mhs4("Joko Wahono");
+}
