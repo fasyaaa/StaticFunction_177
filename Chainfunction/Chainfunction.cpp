@@ -14,7 +14,6 @@ public :
 } bukunya;
 
 
-
 int main() {
 	//bukunya.setJudul("Matematika");						//Chain function calls, pemanggilan dengan cara 1
 	//cout << bukunya.getJudul();
