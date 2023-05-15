@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticFunction_177", "StaticFunction_177\StaticFunction_177.vcxproj", "{BE0A5630-E6B4-4F23-90B8-CF717D993FB3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StatisticFunction2", "StatisticFunction2\StatisticFunction2.vcxproj", "{1E843C10-B844-44C2-965A-C0B1D44B60D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|arm64 = Debug|arm64
@@ -27,6 +29,18 @@ Global
 		{BE0A5630-E6B4-4F23-90B8-CF717D993FB3}.Release|x64.Build.0 = Release|x64
 		{BE0A5630-E6B4-4F23-90B8-CF717D993FB3}.Release|x86.ActiveCfg = Release|Win32
 		{BE0A5630-E6B4-4F23-90B8-CF717D993FB3}.Release|x86.Build.0 = Release|Win32
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Debug|arm64.ActiveCfg = Debug|arm64
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Debug|arm64.Build.0 = Debug|arm64
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Debug|x64.ActiveCfg = Debug|x64
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Debug|x64.Build.0 = Debug|x64
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Debug|x86.ActiveCfg = Debug|Win32
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Debug|x86.Build.0 = Debug|Win32
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Release|arm64.ActiveCfg = Release|arm64
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Release|arm64.Build.0 = Release|arm64
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Release|x64.ActiveCfg = Release|x64
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Release|x64.Build.0 = Release|x64
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Release|x86.ActiveCfg = Release|Win32
+		{1E843C10-B844-44C2-965A-C0B1D44B60D9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
